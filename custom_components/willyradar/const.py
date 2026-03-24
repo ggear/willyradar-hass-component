@@ -1,7 +1,6 @@
 """Constants for the WillyWeather Radar integration."""
 
 DOMAIN = "willyradar"
-DEFAULT_NAME = "WillyWeather Radar"
 
 CONF_API_KEY = "api_key"
 CONF_LATITUDE = "latitude"

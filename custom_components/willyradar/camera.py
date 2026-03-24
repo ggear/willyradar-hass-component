@@ -28,7 +28,6 @@ from .const import (
     CONF_SMOOTH,
     CONF_UPSCALE,
     DEFAULT_BLUR_RADIUS,
-    DEFAULT_NAME,
     DEFAULT_SCALE_FACTOR,
     DEFAULT_SMOOTH,
     DEFAULT_UPSCALE,
@@ -40,7 +39,7 @@ _LOGGER = logging.getLogger(__name__)
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
     {
-        vol.Optional(CONF_NAME, default=DEFAULT_NAME): cv.string,
+        vol.Optional(CONF_NAME, default="willy_radar"): cv.string,
         vol.Optional(CONF_LATITUDE): cv.latitude,
         vol.Optional(CONF_LONGITUDE): cv.longitude,
         vol.Optional(CONF_UPSCALE, default=DEFAULT_UPSCALE): cv.boolean,

@@ -1,10 +1,11 @@
 {
   "domain": "willyradar",
   "name": "WillyWeather Radar",
+  "integration_type": "hub",
   "codeowners": ["@safepay"],
   "dependencies": [],
   "documentation": "https://github.com/safepay/willyweather-radar-addon",
-  "iot_class": "cloud_polling",
+  "iot_class": "cloud_push",
   "requirements": ["Pillow>=10.0.0"],
   "version": "3.0.0"
 }

@@ -32,7 +32,7 @@ willyradar:
 # Camera platform
 camera:
   - platform: willyradar
-    name: "Sydney Radar"          # optional, default: "WillyWeather Radar"
+    name: "Sydney Radar"          # optional, default: "willy_radar"
     latitude: -33.8688            # optional, defaults to HA home location
     longitude: 151.2093           # optional, defaults to HA home location
     upscale: false                # optional, default: false
@@ -46,7 +46,7 @@ camera:
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
 | `api_key` | string | *required* | Your WillyWeather API key |
-| `name` | string | `WillyWeather Radar` | Entity friendly name |
+| `name` | string | `willy_radar` | Entity friendly name |
 | `latitude` | float | HA home latitude | Radar centre latitude |
 | `longitude` | float | HA home longitude | Radar centre longitude |
 | `upscale` | boolean | `false` | Enable Pillow LANCZOS upscaling |
